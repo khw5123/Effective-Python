@@ -16,7 +16,7 @@
 
 * 변수 할당 앞뒤에 스페이스를 하나만 사용한다.
 <pre><code>
-value = 5
+variable = 0
 </code></pre>
 
 * 함수, 변수, 속성은 lowercase_underscore 형식을 따른다.
@@ -85,7 +85,7 @@ print(test.getPrivateVariable())
 
 * 항상 파일의 맨 위에 import 문을 놓는다.
 
-* 모듈을 임포트할 때는 항상 모듈의 절대 이름을 사용하며 현재 모듈의 경로를 기준으로 상대 경로로 된 이름을 사용하지 않는다.
+* 모듈을 임포트할 때는 항상 모듈의 절대 이름을 사용하며 현재 모듈의 경로를 기준으로 상대 경로로 된 이름을 사용하지 않는다.  
 ex) bar 패키지의 foo 모듈을 임포트할 때 import foo가 아닌 from bar import foo라고 해야 한다.
 
 * 상대적인 임포트를 해야 한다면 명시적으로 작성한다.
@@ -95,4 +95,4 @@ from . import foo
 
 * 임포트는 표준 라이브러리 모듈, 서드파티 모듈, 사용자 정의 모듈 섹션 순으로 구분한다. 각각의 하위 섹션에서는 알파벳 순서로 임포트한다.
 
-+ 전체 PEP 8 스타일 가이드: https://www.python.org/dev/peps/pep-0008
+전체 PEP 8 스타일 가이드: https://www.python.org/dev/peps/pep-0008
